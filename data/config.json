@@ -1,0 +1,8 @@
+{
+  "mqtt_server": "192.168.15.32",
+  "mqtt_port": "1883",
+  "mqtt_user": "falldetector",
+  "mqtt_pwd": "falling",
+  "freefallDetectionThreshold":90,
+  "freefallDetectionDuration":50
+}
