@@ -2,7 +2,8 @@
 ## Descripción
 Desarrollo basado en Arduino para la creación de un detector de caidas y botón de pánico para personas de la tercera edad.
 ## Funcionalidad Actual
-Actualmente el proyecto consiste en un detector de caidas basado en un [ESP32 con Batería](https://www.banggood.com/TTGO-T-Energy-ESP32-8MByte-PSRAM-WiFi-Bluetooth-Module-18650-Battery-ESP32-WROVER-IB-Development-Board-p-1427125.html) y un [MPU 6050](https://www.banggood.com/6DOF-MPU-6050-3-Axis-Gyro-With-Accelerometer-Sensor-Module-For-Arduino-p-80862.html)
+Actualmente el proyecto consiste en un detector de caidas basado en un [ESP32 con Batería](https://www.banggood.com/TTGO-T-Energy-ESP32-8MByte-PSRAM-WiFi-Bluetooth-Module-18650-Battery-ESP32-WROVER-IB-Development-Board-p-1427125.html) y un [MPU 6050](https://www.banggood.com/6DOF-MPU-6050-3-Axis-Gyro-With-Accelerometer-Sensor-Module-For-Arduino-p-80862.html).
+Esta configuración permite que el proyecto cuente con conectividad WiFi y la detección de caidas mediante el acelerómetro.
 ## Limitaciones
 ### Limitaciones de Firmware
 De momento este proyecto es resultado de la integración de varios desarrollos que realizé para probar distintos conceptos. En particular de momento hace falta portear y/o afinar lo siguiente en esta versión:
